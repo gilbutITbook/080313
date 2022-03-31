@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clear-solved.html</title>
+  <style>
+    .container{
+      width:400px;
+      padding:1rem;
+      margin:0 auto;
+      border:1px solid black;
+      background-color: #ccc; 
+    }
+    .container::after{
+      display: block;
+      content:"";
+      clear: both;
+    }
+    .box{
+      width:100px;
+      height: 100px;
+    }
+    .red-box{
+      background-color: red;
+      float: left;
+    }
+    .blue-box{
+      background-color: blue;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box red-box"></div>
+    <div class="box blue-box"></div>
+  </div>
+</body>
+</html>

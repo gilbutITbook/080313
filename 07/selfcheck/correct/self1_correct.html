@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>    
+  .flex-container{
+    display: flex;
+    width:500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  figure{
+    width:calc(33% - 5px);
+    font-size: 0;
+    margin:0;
+    margin-bottom: 10px;
+  }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <figure>
+      <img src="./images/1.jpg" alt="sample 1">
+    </figure>
+    <figure>
+      <img src="./images/2.jpg" alt="sample 2">
+    </figure>
+    <figure>
+      <img src="./images/3.jpg" alt="sample 3">
+    </figure>
+    <figure>
+      <img src="./images/4.jpg" alt="sample 4">
+    </figure>
+    <figure>
+      <img src="./images/5.jpg" alt="sample 5">
+    </figure>
+    <figure>
+      <img src="./images/6.jpg" alt="sample 6">
+    </figure>
+  </div>
+</body>
+</html>

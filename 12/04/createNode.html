@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Create Node</title>
+</head>
+<body>
+  
+  <script>
+    // 요소 노드 생성
+    const aEl = document.createElement("a"); 
+    document.body.appendChild(aEl);
+
+    //텍스트 노드 생성
+    const txtEl = document.createTextNode("길벗, 이지톡");
+    document.querySelector("a").appendChild(txtEl);
+
+    //href 속성 추가
+    const hrefAttr = document.createAttribute("href");
+    hrefAttr.value = 'https://www.gilbut.co.kr';
+    document.querySelector("a").setAttributeNode(hrefAttr);
+
+  </script>
+</body>
+</html>

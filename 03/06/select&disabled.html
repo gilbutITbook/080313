@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>select tag</title>
+  <style>
+    /* 스타일 정리를 위한 CSS 코드 */
+    label, select{
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- select & disabled 속성 사용 -->
+  <form action="#" method="post">
+    <fieldset>
+      <legend>사은품 선택</legend>
+        <label for="gift">사은품</label>
+        <select name="gift" id="gift">
+          <option value="echobag">에코백</option>
+          <option value="discount" disabled>10% 할인 쿠폰(품절)</option>                                        
+        </select>
+        <input type="submit" value="선택">
+    </fieldset>
+  </form>
+</body>
+</html>

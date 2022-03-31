@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>콘텐츠 조작</title>
+</head>
+<body>
+  <p id="title">Hello, <span style="display: none;">Javascript!</span></p>
+  <script>
+    document.getElementById("title").textContent;//Hello, Javascript!
+    document.getElementById("title").innerText;//Hello,
+    document.getElementById("title").innerHTML;//Hello, <span style="display: none;">Javascript!</span>
+
+    console.log(document.getElementById("title").textContent);
+    console.log(document.getElementById("title").innerText);
+    console.log(document.getElementById("title").innerHTML);
+  </script>
+</body>
+</html>

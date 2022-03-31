@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>classList</title>
+  <style>
+    .red-color{
+      color:red;
+    }
+    .fz20{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <p id="text" class="red-color fz20">text</p>
+  <script>
+    const pEl = document.querySelector("#text");
+    pEl.classList.remove("red-color", "fz20"); // 삭제
+  </script>
+</body>
+</html>

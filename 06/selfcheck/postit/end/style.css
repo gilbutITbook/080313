@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#postit {
+  width:333px;
+  height: 333px;
+  padding:19px;
+  background-color:#ff9;
+  transform:rotate(10deg);
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+  position: relative;
+  margin:100px;
+}
+
+
+#postit h1{
+  font-size: 44px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+#postit p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}

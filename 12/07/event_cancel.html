@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>event_cancel</title>
+</head>
+<body>
+  <a href="https://www.naver.com">네이버 이동</a>
+  <a href="https://www.daum.net">다음 이동</a>
+  <script>
+    const aEls = document.querySelectorAll("a");
+    for(let i=0; i< aEls.length; i++){
+      aEls[i].addEventListener("click", function(e){
+        // 기본 이벤트 취소
+        e.preventDefault();
+      });
+    }
+  </script>
+</body>
+</html>

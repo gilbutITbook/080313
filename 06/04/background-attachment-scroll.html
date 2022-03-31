@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>background-attachment-scroll</title>
+  <style>
+    body{
+      height: 1000px;
+    }
+    .parent{
+      width:320px; /* 원본 이미지보다 2배 크게 설정 */
+      height: 340px;/* 원본 이미지보다 2배 크게 설정 */
+      border:1px solid black; /* 요소의 넓이가 잘 보이게 테두리 설정 */
+      overflow: scroll;;
+    }
+    .children{
+      height: 2000px;
+      background-image: url('images/coffee.jpg');
+      background-attachment: scroll;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="children"></div>
+  </div>
+</body>
+</html>

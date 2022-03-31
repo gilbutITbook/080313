@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>absolute</title>
+  <style>
+    body{
+      margin:0;
+    }
+    .box{
+      width:100px;
+      height: 100px;
+    }
+    .red-box{
+      background-color: red;
+    }
+    .green-box{
+      background-color: green;
+      position: absolute;
+      left:100px;
+      top:100px;
+    }
+    .blue-box{
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box red-box"></div>
+  <div class="box green-box"></div>
+  <div class="box blue-box"></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* what_i_do.css */
+/* float 속성 해제*/
+section .do-me::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/* 사각형 크기와 간격, 내부 여백 설정 */
+section .do-me .do-inner{
+  background-color:#fff;
+  width:30%;
+  padding:2rem; 
+  float:left;
+  margin-right:5%;
+  cursor:pointer;
+}
+/* 마지막 사각형의 외부 여백 설정 */
+section .do-me .do-inner:last-child{
+  margin-right:0;
+}
+/* 아이콘 폰트 크기와 색상 */
+section .do-me .do-inner .icon i{
+  font-size:2.5rem;
+  color:#ff6a6a;
+}
+/* HTML5, CSS3, BootStrap v5.0 텍스트 크기와 간격 */
+section .do-me .do-inner .content h3{
+  font-size:2rem;
+  margin:1rem 0;
+}
+/* 사각형 텍스트 크기 */
+section .do-me .do-inner .content p{
+  font-size:1.15rem;
+}
+/* do-inner 클래스에 마우스를 올리면 배경색과 텍스트 색상 변경 */
+section .do-me .do-inner:hover{
+  background-color:lightcoral;
+  color:white;
+}
+/* do-inner 클래스에 마우스를 올리면 아이콘 폰트 색상 변경 */
+section .do-me .do-inner:hover i{
+  color:white;
+}
+
+/* End what_i_do.css */

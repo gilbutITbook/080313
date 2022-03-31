@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>col, colgroup</title>
+  <style>
+    table, th, td{
+      border:1px solid #ccc;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <col style="width:80px">
+    <colgroup span="2" style="width:150px"></colgroup>    
+    <col style="width:100px">
+    <tr>
+      <th>번호</th>
+      <th>상품명</th>
+      <th>수량</th>
+      <th>가격</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>콜라</td>
+      <td>1개</td>
+      <td>1,500원</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>사이다</td>
+      <td>2개</td>
+      <td rowspan="2">1,000원</td> <!--행 병합-->
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>탄산수</td>
+      <td>3개</td> 
+  <!-- 2행의 4열에서 행 병합을 했으므로 3행의 4열은 적지 않습니다 -->
+    </tr>
+    <tr>
+      <td>총 금액</td>
+      <td colspan="3">6,500원</td> <!-- 2행에서 열을 3개 병합하므로 나머지 열은 생성하지 않습니다 -->
+    </tr>
+  </table>  
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* portfolio.css */
+/* clear 속성으로 float 속성값 해제*/
+section.portfolio::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/* portfolio-inner 사각형 꾸미기 */
+section.portfolio .portfolio-inner{
+  width:30%;
+  margin-right:5%;
+  padding:1rem 1rem 1.5rem 1rem;
+  float:left;
+  background-color:#f8f8f8;
+  border:1px solid #ccc;
+  margin-bottom:3rem;
+}
+/* 3번째마다 margin-right 0 적용 */
+section.portfolio .portfolio-inner:nth-child(3n){
+   margin-right:0;
+}
+/* 이미지의 크기가 부모 요소를 넘지 않도록 100%로 지정 */
+section.portfolio .portfolio-inner img{
+  width:100%;
+  display:block;
+}
+/* strong 태그 색상과 간격 */
+section.portfolio .portfolio-inner strong{
+  color:#ff6a6a;
+  margin:0.5rem 0;
+  display:block;
+}
+/* h3 태그 색상과 간격 */
+section.portfolio .portfolio-inner h3{
+  font-size:1.75rem;
+}
+/* End portfolio.css */

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>label tag</title>
+</head>
+<body>
+  <form action="#">
+    <!-- 암묵적인 방법 -->
+    <label>
+      아이디
+      <input type="text">
+    </label>
+    <!-- 명시적인 방법 -->
+    <label for="userpw">패스워드</label>
+    <input type="password" id="userpw">  
+    <!-- 암묵적 + 명시적 방법-->
+    <label for="username">
+      <input type="text" id="username"> 이름
+    </label>  
+  </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>select tag</title>
+  <style>
+    /* 스타일 정리를 위한 CSS 코드 */
+    label, select{
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- select & option 태그만 사용 -->
+  <form action="#" method="post">
+    <fieldset>
+      <legend>개인 정보 입력</legend>
+        <label for="city">지역</label>
+        <select name="city" id="city">
+          <option value="강북구">강북구</option>
+          <option value="강남구">강남구</option>
+          <option value="서초구">서초구</option>
+          <option value="중원구">중원구</option>
+          <option value="분당구">분당구</option>
+        </select>
+        <input type="submit" value="등록">
+    </fieldset>
+  </form>
+</body>
+</html>

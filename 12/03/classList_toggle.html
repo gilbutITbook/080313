@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle</title>
+  <style>
+    .red-color{
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <p id="text">text</p>
+  <script>
+    const pEl = document.querySelector("#text"); // 노드 가져오기
+
+    //1초마다 toggle 메서드를 반복 실행합니다.
+    setInterval(function(){
+      pEl.classList.toggle("red-color"); 
+    },  1000);
+  </script>
+</body>
+</html>

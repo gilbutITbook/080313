@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex wrap</title>
+  <link rel="stylesheet" href="flex-basic.css">
+  <style>
+    .flex-container{
+      display:flex;
+    }
+    .flex-item:nth-child(1){
+      align-self:flex-start;
+    }
+    .flex-item:nth-child(2){
+      align-self:flex-end;
+    }
+    .flex-item:nth-child(3){
+        align-self:center;
+    }
+    .flex-item:nth-child(4){
+      align-self:baseline;
+    }    
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item">item-1</div>
+    <div class="flex-item">item-2</div>
+    <div class="flex-item">item-3</div>
+    <div class="flex-item">item-4</div>
+  </div>
+</body>
+</html>

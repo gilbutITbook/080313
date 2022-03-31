@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    th, td{
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- 테이블의 시작을 의미 -->
+  <table>
+    <tr>
+      <th>번호</th>
+      <th>상품명</th>
+      <th>수량</th>
+      <th>가격</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>콜라</td>
+      <td>1개</td>
+      <td>1,500원</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>사이다</td>
+      <td>2개</td>
+      <td rowspan="2">2</td> <!-- 행 병합 -->
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>탄산수</td>
+      <td>3개</td> 
+      <!-- 4행 4열은 3행 4열과 병합했으므로 생성하지 않습니다. -->
+    </tr>
+    <tr>
+      <td>총 금액</td>
+      <td colspan="3">6,500원</td> 
+      <!-- 5행 2열부터 열 3개를 병합했으므로 나머지 열은 생성하지 않습니다. -->
+    </tr>
+  </table>  
+</body>
+</html>

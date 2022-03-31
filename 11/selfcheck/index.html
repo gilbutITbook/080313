@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>팝업</title>
+</head>
+<body>
+  <button onclick="popup()">팝업</button>
+  <script>
+    function popup(){
+      const left = (screen.availWidth - 500) / 2 + window.screenX;
+      const top = (screen.availHeight - 300) / 2;
+      window.open('https://google.com', 'popup', 'width=500, height=300, left=' + left + ', top=' + top);
+      console.log(window.screenX);
+    }
+  </script>
+</body>
+</html>

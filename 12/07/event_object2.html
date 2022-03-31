@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>event object2</title>
+</head>
+<body>
+  <form>
+    <input type="text">
+  </form>
+  <script>
+    const inputEl = document.querySelector("input");
+    inputEl.addEventListener("keydown",function(event){ // 이벤트 객체      
+      console.log(`keyCode:${event.keyCode}`);
+      console.log(`ctrlKey:${event.ctrlKey}`);
+      console.log(`altKey:${event.altKey}`);
+      console.log(`shiftKey:${event.shiftKey}`);
+    })
+  </script>
+</body>
+</html>

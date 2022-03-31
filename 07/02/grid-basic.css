@@ -1,0 +1,7 @@
+.grid-item{
+  color:white;
+  background-color: #ff5252; /* 기본 배경 색상 */
+}
+.grid-item:nth-child(2n){
+  background-color: #bf5e5e;
+}

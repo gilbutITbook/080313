@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+a{
+  color:#0645ad;
+}
+
+.list{
+  width:346px;
+  height: 265px;
+  background-color: #f8f9fa;
+  border:1px solid #a2a9b1;
+  padding: 6px 5px;
+  margin:20px auto;
+}
+
+.list h1{
+  font-size: 13px;
+  text-align: center;
+}
+
+
+.list ol li{
+  list-style: none;
+  font-size: 13px;
+}
+
+.list ol li a{
+  text-decoration: none;
+  height: 21px;
+  display: inline-block;
+}
+
+.list ol li ol{
+  margin-left: 26px;
+}

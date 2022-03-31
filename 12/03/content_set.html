@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Modify Set</title>
+</head>
+<body>
+  <p id="textContent"></p>
+  <p id="innerText"></p>
+  <p id="innerHTML"></p>
+  <script>
+    document.querySelector("#textContent").textContent = `<strong>textContent</strong> 속성`;
+    document.querySelector("#innerText").innerText = `<strong>innerText</strong> 속성`;
+    document.querySelector("#innerHTML").innerHTML= `<strong>innerHTML</strong> 속성`;
+  </script>
+</body>
+</html>

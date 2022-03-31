@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>select</title>
+</head>
+<body>
+  <form>
+    <select name="opt">
+      <option value="apple">사과</option>
+      <option value="banana">바나나</option>
+      <option value="orange">오렌지</option>
+      <option value="melon">멜론</option>
+    </select>
+  </form>
+  <script>
+    const optionEls = document.querySelectorAll("option")
+    for(let i=0; i<optionEls.length; i++){
+      if(optionEls[i].value === 'banana')
+        optionEls[i].selected = true;
+    }
+  </script>
+</body>
+</html>

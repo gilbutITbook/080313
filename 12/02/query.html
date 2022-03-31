@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>querySelector-*</title>
+</head>
+<body>
+  <div class="box-1">
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+  </div>
+  <div class="box-2">
+    <p class="text">text-3</p>
+    <p class="text">text-4</p>
+  </div>
+  <script>
+    // const el = document.getElementsByClassName("box-1")[0].children;
+    const el = document.querySelectorAll(".box-1 .text");
+    console.log(el);
+  </script>
+</body>
+</html>
