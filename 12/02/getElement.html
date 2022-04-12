@@ -4,29 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>요소 노드 가져오기</title>
+  <title>요소 노드 선택하기</title>
 </head>
 <body>
   <h1 id="title">title</h1>
   <p class="text">text-1</p>
   <p class="text">text-2</p>
   <script>
-    // id 속성의 값이 title인 요소 노드 가져오기
+    // id 속성값이 title인 요소 노드 선택하기
     const el = document.getElementById("title");
     console.log(el); 
-    // class 속성의 값이 text인 요소 노드 모두 가져오기
+    // class 속성값이 text인 요소 노드 모두 선택하기
     const classEl = document.getElementsByClassName("text");
     console.log(classEl);
-    //console.log(classEl[0]);
-    //console.log(classEl[1]);
+    // console.log(classEl[0]);
+    // console.log(classEl[1]);
     for(let el of classEl){
       console.log(el);
     }
-    // p 태그에 해당하는 요소 노드를 모두 가져오기
+    // p 태그에 해당하는 요소 노드 모두 선택하기
     const tagEls  = document.getElementsByTagName("p");
     console.log(tagEls);
-    //console.log(tagEls[0]);
-    //console.log(tagEls[1]);
+    // console.log(tagEls[0]);
+    // console.log(tagEls[1]);
     for(let el of tagEls){
       console.log(el);
     }

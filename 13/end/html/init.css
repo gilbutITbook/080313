@@ -1,0 +1,12 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a, a:link, a:visited{
+  color:inherit;
+  text-decoration:none;
+}
+li{
+  list-style:none;
+}

@@ -1,16 +1,16 @@
-let food = 'melon';
+let food = "melon";
 switch (food) {
-  case 'melon':
-    console.log('fruit');
+  case "melon":
+    console.log("fruit");
     break;
-  case 'apple':
-    console.log('fruit');
+  case "apple":
+    console.log("fruit");
     break;
-  case 'banana':
-    console.log('fruit');
+  case "banana":
+    console.log("fruit");
     break;
-  case 'carrot':
-    console.log('vegetable');
+  case "carrot":
+    console.log("vegetable");
     break;
   default:
     console.log("It's not fruits and vegetables.");

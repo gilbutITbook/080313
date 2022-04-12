@@ -8,9 +8,22 @@
   <link rel="stylesheet" href="grid-basic.css">
   <style>
     .grid-container{
-      display: grid;
-      grid-template-columns:100px 100px;
+      display:grid;
+      grid-template-columns:100px 100px; 
       grid-template-rows:100px 100px;
+      /* 
+      grid-template-columns:100px auto; 
+      grid-template-rows:100px 100px;
+
+      grid-template-columns:repeat(2, 100px); 
+      grid-template-rows:repeat(2, 50px); 
+
+      grid-template-columns:minmax(10px, 100px) 100px; 
+      grid-template-rows:minmax(10px, 50px) 50px; 
+
+      grid-template-columns:repeat(2, minmax(50px, 100px)); 
+      grid-template-rows: repeat(2, minmax(10px, 50px)); 
+      */
     }
   </style>
 </head>

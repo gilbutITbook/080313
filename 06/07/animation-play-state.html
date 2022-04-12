@@ -8,15 +8,15 @@
   <style>
     div{
       width:100px;
-      height: 100px;
-      background-color: red;
-      position: relative;
-      animation-name: move;
-      animation-duration: 10s;
-      animation-fill-mode: forwards;
-      animation-play-state: paused;
+      height:100px;
+      background-color:red;
+      position:relative;
+      animation-name:move;
+      animation-duration:10s;
+      animation-fill-mode:forwards;
+      animation-play-state:paused;
     }
-    @keyframes move {
+    @keyframes move{
       from{
         left:0;
       }
@@ -33,10 +33,10 @@
   <script>
     const box = document.querySelector("div");
     document.getElementById("start").addEventListener("click", function(){
-      box.style.animationPlayState = 'running';
+      box.style.animationPlayState = "running";
     });
     document.getElementById("paused").addEventListener("click", function(){
-      box.style.animationPlayState = 'paused';
+      box.style.animationPlayState = "paused";
     })
   </script>
 </body>

@@ -14,9 +14,8 @@
 <body>
   <p id="text">text</p>
   <script>
-    const pEl = document.querySelector("#text"); // 노드 가져오기
-
-    //1초마다 toggle 메서드를 반복 실행합니다.
+    const pEl = document.querySelector("#text"); // 노드 선택
+    // 1초마다 toggle 메서드 반복 실행
     setInterval(function(){
       pEl.classList.toggle("red-color"); 
     },  1000);

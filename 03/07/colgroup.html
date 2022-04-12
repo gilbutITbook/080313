@@ -8,14 +8,14 @@
   <style>
     table, th, td{
       border:1px solid #ccc;
-      border-collapse: collapse;
-      border-spacing: 0;
+      border-collapse:collapse;
+      border-spacing:0;
     }
   </style>
 </head>
 <body>
   <table>
-    <col style="width:80px">
+    <col style="width:80px;">
     <colgroup span="2" style="width:150px"></colgroup>    
     <col style="width:100px">
     <tr>
@@ -40,11 +40,12 @@
       <td>3</td>
       <td>탄산수</td>
       <td>3개</td> 
-  <!-- 2행의 4열에서 행 병합을 했으므로 3행의 4열은 적지 않습니다 -->
+      <!-- 4행 4열은 3행 4열과 병합했으므로 생성하지 않습니다. -->
     </tr>
     <tr>
-      <td>총 금액</td>
-      <td colspan="3">6,500원</td> <!-- 2행에서 열을 3개 병합하므로 나머지 열은 생성하지 않습니다 -->
+      <td>총 금액</td> 
+      <td colspan="3">6,500원</td>
+      <!-- 5행 2열부터 열 3개를 병합했으므로 나머지 열은 생성하지 않습니다. -->
     </tr>
   </table>  
 </body>

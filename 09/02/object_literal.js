@@ -4,5 +4,5 @@ let studentScore = {
   mathScore:90,
   scienceScore:60
 };
-console.log(studentScore.koreanScore);
-console.log(studentScore['englishScore']);
+console.log(studentScore.koreanScore); // 80
+console.log(studentScore['englishScore']); // 70

@@ -1,2 +1,2 @@
 let empty; 
-console.log(empty);
+console.log(empty); // undefined

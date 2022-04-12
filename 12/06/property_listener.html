@@ -10,10 +10,21 @@
   <button>클릭</button>
   <script>
     const btnEl = document.querySelector("button");
+    btnEl.onclick = function(){
+      alert("click");
+    }
+
+    /* 
+    btnEl.onclick = () => {
+      alert("arrow click");
+    }
+    */
+    /*
     btnEl.onclick = clickEvent;
     function clickEvent(){
-      alert('click');
+      alert("click");
     }
+    */
   </script>
 </body>
 </html>

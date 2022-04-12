@@ -10,15 +10,17 @@
       color:red;
     }
     .fz20{
-      font-size: 20px;
+      font-size:20px;
     }
   </style>
 </head>
 <body>
   <p id="text">text</p>
   <script>
-    const pEl = document.querySelector("#text"); // 노드 가져오기
+    const pEl = document.querySelector("#text"); // 노드 선택하기
+    pEl.classList.add("red-color", "red-color");
     pEl.classList.add("red-color", "fz20");
+    // pEl.classList.add("red-color", "fz20");
   </script>
 </body>
 </html>

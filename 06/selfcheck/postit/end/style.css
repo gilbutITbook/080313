@@ -3,29 +3,28 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 #postit {
-  width:333px;
-  height: 333px;
-  padding:19px;
+  width:350px;
+  height:350px;
+  padding:18px;
   background-color:#ff9;
   transform:rotate(10deg);
-  text-align: center;
-  font-family: 'Nanum Pen Script', cursive;
-  position: relative;
+  text-align:center;
+  font-family:"Nanum Pen Script", cursive;
+  position:relative;
   margin:100px;
 }
 
-
 #postit h1{
-  font-size: 44px;
-  margin-bottom: 20px;
-  font-weight: normal;
+  font-size:44px;
+  margin-bottom:20px;
+  font-weight:normal;
 }
 
 #postit p{
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size:25px;
+  margin-bottom:20px;
 }

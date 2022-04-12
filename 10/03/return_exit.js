@@ -4,4 +4,5 @@ function sum(num1, num2){
   }
   return num1 + num2;
 }
-console.log('out:' + result);
+let result = sum("a", "b");
+console.log("out:" + result); // out: undefined

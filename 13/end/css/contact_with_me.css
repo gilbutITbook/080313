@@ -21,9 +21,6 @@ section.contact .contact-me .left .card{
   align-items:center;
   margin-bottom:1.25rem;
 }
-section.contact .contact-me .left .card .icon{
-  width:45px;
-}
 section.contact .contact-me .left .card .icon i{
   font-size:2rem;
   margin-right:5px;

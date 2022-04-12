@@ -7,15 +7,15 @@
 <body>
   
   <script>
-    // 요소 노드 생성
+    // 요소 노드 생성하기
     const aEl = document.createElement("a"); 
     document.body.appendChild(aEl);
 
-    //텍스트 노드 생성
-    const txtEl = document.createTextNode("길벗, 이지톡");
+    // 텍스트 노드 추가하기
+    const txtEl = document.createTextNode("길벗");
     document.querySelector("a").appendChild(txtEl);
 
-    //href 속성 추가
+    // href 속성 추가하기
     const hrefAttr = document.createAttribute("href");
     hrefAttr.value = 'https://www.gilbut.co.kr';
     document.querySelector("a").setAttributeNode(hrefAttr);

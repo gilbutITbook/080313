@@ -1,5 +1,5 @@
 let score = 90;
-switch (score) {
+switch (score){
   case 90:    
   case 91:
   case 92:
