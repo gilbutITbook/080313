@@ -2,7 +2,7 @@
 
 이 저장소에는 <코딩 자율학습 HTML + CSS + 자바스크립트>의 예제 코드가 담겨 있습니다.
 
-![cover_hcj__입체](https://user-images.githubusercontent.com/6995518/162927709-83805986-5bfc-47b1-885b-eed3a541dbd0.png)
+![coverimage_hcj_입체+그림자__150pdi](https://github.com/gilbutITbook/080313/assets/6995518/bac2d403-e14d-4517-8fd3-7278e5f1b8a5)
 
 ## 예제 코드 다운로드 및 확인 방법
 
